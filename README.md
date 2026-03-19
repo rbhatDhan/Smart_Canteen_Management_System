@@ -42,7 +42,7 @@ This project helps digitize the traditional canteen system by allowing users to 
 5. Open your browser and run:
 
    ```
-   http://localhost/SmartCanteen3
+   http://localhost/SmartCanteen
    ```
 
 ---
