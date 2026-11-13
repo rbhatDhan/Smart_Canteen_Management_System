@@ -75,7 +75,3 @@ legacy/              unused files from the old project (blocked from the web)
 storage/logs         app.log (errors, payment/webhook problems)
 ```
 
-## ⚠️ Do this now
-The old project had **two Gmail App Passwords written in the source code** (`update_status.php`, `place_order.php`,
-`forgot_password_process.php`). Treat them as leaked: revoke them in the Google account, create new ones and put them
-in `.env`. Also rotate the admin passwords from the old seed data (`admin123`, …).
