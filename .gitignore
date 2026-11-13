@@ -1,0 +1,10 @@
+.env
+storage/logs/*
+!storage/logs/.gitkeep
+node_modules/
+
+/vendor/
+.phpunit.cache/
+tests/e2e/node_modules/
+tests/e2e/test-results/
+tests/e2e/playwright-report/
